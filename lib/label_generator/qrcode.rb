@@ -3,6 +3,9 @@ require 'barby/barcode/qr_code'
 require 'barby/outputter/png_outputter'
 
 class LabelGenerator
+
+    # TODO: ADD FUNCTION TO ADD PICTURE TO QRCODE PNG
+    # CAN THE SIZING BE MORE DYNAMIC?
     class QRCode < LabelGenerator
   
       def initialize(value, text = '', level = :q, xdim = 4)
